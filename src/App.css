@@ -1,0 +1,84 @@
+.Character-Case {
+  text-align: center;
+}
+
+.Case-Logo {
+  animation: Case-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Case-Header {
+  background-color: rgb(36, 103, 124);
+  height: 150px;  
+}
+
+.Case-Title {
+  font-size: 1.8em;
+  color: #64b6d1;
+}
+
+.Case-Div
+{
+  float: left;
+  width: 33.33%
+}
+
+.Case-Body {
+  background-color: rgb(36, 103, 124);
+  height: 515px;
+  
+
+}
+.Case-Input {
+  border: 2px;
+  background-color:#64b6d1;
+  height:510px ;
+  color: whitesmoke;
+  font-size: 1.2em;
+  width: 100%;
+}
+.Case-Output {
+  border: 2px;
+  background-color:#64b6d1;
+  height: 510px;
+  color: whitesmoke;
+  font-size: 1.2em;
+  width: 100%;
+  
+}
+
+.Case-SelectType
+{
+  font: 100;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#64b6d1;
+  margin: 10px;
+  text-align: center;
+ 
+}
+
+.Case-Select
+{
+  font: 100;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#64b6d1;
+  border: 2px;
+  border-color: #64b6d1;
+  padding: 200px 0px 0px 0px;
+  
+}
+
+.Case-Submit
+{
+  font: 100;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#64b6d1;
+  margin: 10px;
+}
+
+
+
+@keyframes Case-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
